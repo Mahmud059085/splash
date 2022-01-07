@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:splash/helper/custom_button.dart';
 import 'package:splash/helper/custom_text_field.dart';
 import 'package:splash/log_in.dart';
+import 'package:splash/screen/go_to_new_page.dart';
 class SignUpPage extends StatefulWidget {
   const SignUpPage({Key? key}) : super(key: key);
 
@@ -53,7 +54,7 @@ class _SignUpPageState extends State<SignUpPage> {
                InkWell(
                  onTap: (){
                    if(_formkey.currentState!.validate())
-                   Navigator.push(context, MaterialPageRoute(builder: (context)=>LogIn()));
+                   Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
                  },
                  child: CustomButton(
                      height: 60,

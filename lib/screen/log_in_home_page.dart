@@ -11,7 +11,7 @@ class _LogInPageState extends State<LogInPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Home Page"),
+        child: Text("Home Page1"),
       ),
     );
 
